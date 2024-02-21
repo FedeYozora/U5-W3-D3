@@ -9,6 +9,8 @@ import java.time.LocalDate;
 public class Es1Runner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("---------------------------Esercizio 1---------------------------");
+
         Info info = new Info("Federico", "Bonfiglio", LocalDate.of(2000, 7, 15));
 
         UserData userData = new UserData();
